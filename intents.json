@@ -1,0 +1,30 @@
+{"intents": [
+    {"tag":"greeting",
+     "patterns": ["Hi", "Hey","Hi there", "How are you", "Is anyone there","Hola", "Hello", "Good day","Whats up"],
+     "responses": ["Hey", "Hello, thanks for visiting","Hello, thanks for asking", "Hello", "Good see you again!","Hi there, what can I do for you?", "Hi there, how can I help you?"],
+     "context_set": ""
+     },
+    {"tag":"goodbye",
+     "patterns": ["cya","Bye", "see you later", "Goodbye", "I am leaving", "Have a Good day","Thank you for using chatbot"],
+     "responses": ["Sad to see you go","see you later, thanks for visiting", "Talk to you later", "Goodbye!"],
+     "context_set": ""
+     },
+    {"tag":"age",
+     "patterns": ["How old", "How old is tim", "What is your age", "How old are you", "age"],
+     "responses": ["I am 25 years old!", "25 years young"],
+     "context_set": ""
+     },
+    {"tag":"name",
+     "patterns": ["whate is your name", "whate should I call you", "whats your name?"],
+     "responses": ["my name is labib", "I am Labib"],
+     "context_set": ""
+     },
+     {"tag": "noanswer",
+        "patterns": [],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+        "context": [""]
+     }
+
+    
+    ]
+}
